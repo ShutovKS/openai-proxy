@@ -1,5 +1,7 @@
 # OpenAI Proxy
 
+[Russia](./README.md) | [English](./README.en.md) |[中文](./README.zh.md) |
+
 Простой самохостящийся прокси для OpenAI API.  
 Позволяет просто сменить `https://api.openai.com` на ваш собственный адрес.
 
@@ -33,13 +35,13 @@ curl https://127.0.0.1:4937/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $OPENAI_TOKEN" \
   -d '{
-"model": "gpt-4o",
-    "messages": [
+  "model": "gpt-4o",
+  "messages": [
     {
-        "role": "user",
-        "content": "Write a one-sentence bedtime story about a unicorn."
+      "role": "user",
+      "content": "Write a one-sentence bedtime story about a unicorn."
     }
-]
+  ]
 }'
 
 ```
