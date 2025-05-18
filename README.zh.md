@@ -14,6 +14,7 @@
 ```bash
 git clone https://github.com/ShutovKS/openai-proxy.git
 cd openai-proxy
+chmod +x setup.sh
 sudo ./setup.sh
 ````
 

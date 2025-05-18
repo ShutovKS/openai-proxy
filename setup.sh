@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+﻿#!/bin/bash
 set -euo pipefail
 
 # 1. Проверка запуска от root

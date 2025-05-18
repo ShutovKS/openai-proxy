@@ -14,6 +14,7 @@ Allows you to replace `https://api.openai.com` with your own server.
 ```bash
 git clone https://github.com/ShutovKS/openai-proxy.git
 cd openai-proxy
+chmod +x setup.sh
 sudo ./setup.sh
 ````
 
